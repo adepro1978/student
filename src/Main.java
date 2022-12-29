@@ -15,7 +15,7 @@ public class Main {
 
         String input;
         RoboticHouseHelp roboticHouseHelp = new RoboticHouseHelp();
-        roboticHouseHelp.fullName = "Green Wood";
+        roboticHouseHelp.fullName = "Greenwood";
         roboticHouseHelp.age = 10;
         roboticHouseHelp.actions = "cook food, get you water, clean the house, tell you stories e.t.c.";
 
@@ -73,7 +73,7 @@ public class Main {
             }
 
             else {
-                System.out.println("I DON'T understand your Question or Command");
+                System.out.println("I DON'T understand your Question or Command, please come again.");
                 System.out.println("for more command or question, type my name (greenwood),Else press any key.");
             }
 

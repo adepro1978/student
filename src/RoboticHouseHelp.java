@@ -14,7 +14,7 @@ public class RoboticHouseHelp {
     }
 
     public String sayAction() {
-        return " I am a robotichousehelp,I can " + actions;
+        return " I am a Robotic House Help (RHH-1),I can " + actions;
     }
 
     public void cook() throws InterruptedException {
